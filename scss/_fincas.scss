@@ -21,10 +21,9 @@
 	margin-bottom: 2rem;
 }
 .accordion-body {
-	display: flex;
+	@include flexCenter;
 	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	justify-content: center;	
 	text-align: center;
 	background-color: $background-color_1;
 	font-size: 1.2rem;

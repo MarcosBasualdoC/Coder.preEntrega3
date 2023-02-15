@@ -114,8 +114,7 @@
 	margin: 3rem 0;
 }
 .botonBV {
-	display: flex;
+	@include flexCenter;
 	justify-content: center;
-	align-items: center;
 	margin-bottom: 2rem;
 }

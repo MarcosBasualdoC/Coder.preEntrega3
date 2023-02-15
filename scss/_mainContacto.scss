@@ -5,9 +5,8 @@
 	background-image: url("../img/copa2.png");
 	background-repeat: no-repeat;
 	background-size: cover;
-	display: flex;
+	@include flexCenter;
 	flex-direction: column;
-	align-items: center;
 	justify-content: center;
 	padding-bottom: 10rem;
 	h2 {
