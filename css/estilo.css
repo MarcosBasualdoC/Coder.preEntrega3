@@ -270,4 +270,76 @@ nav {
   text-align: center;
 }
 
+/* --------- PRODUCTOS --------- */
+.tituloProd {
+  height: 20rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+}
+.tituloProd h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(161, 1, 1);
+  border: 3px solid rgb(161, 1, 1);
+  padding: 0 1rem;
+}
+
+#videoBackground {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  min-width: 100%;
+  min-height: 100%;
+  top: -35%;
+  width: auto;
+  height: auto;
+  z-index: -1000;
+  overflow: hidden;
+}
+
+.mainProd {
+  background-image: url("../img/manchas.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.mainProd h2 {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 3rem;
+  padding-top: 0.5rem;
+  border-top: 5px solid rgb(130, 0, 0);
+}
+
+.productosClasicos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+.card {
+  margin: 1rem;
+  background-color: rgb(130, 0, 0);
+  border-radius: 2px;
+  border: none;
+}
+
+.card-title {
+  font-weight: bold;
+  color: rgb(233, 233, 233);
+}
+
+.card-text {
+  color: rgb(233, 233, 233);
+  margin-top: 1rem;
+}
+
 /*# sourceMappingURL=estilo.css.map */
