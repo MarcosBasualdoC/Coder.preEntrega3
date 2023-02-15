@@ -486,4 +486,61 @@ textarea {
   margin-top: auto;
 }
 
+/* -------------------- BODEGA ------------------ */
+.tituloBod {
+  background-image: url("../img/barril1.png");
+}
+
+.imagenBodega {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8% 30%;
+  border-top: 3px solid rgb(33, 37, 41);
+  text-align: center;
+  background-image: url("../img/bodegas1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(233, 233, 233);
+}
+.imagenBodega div {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 1rem;
+  border-radius: 5px;
+}
+.imagenBodega div h2 {
+  font-weight: bold;
+}
+.imagenBodega div p {
+  margin: 2rem 0;
+  line-height: 1.7rem;
+  font-size: 1.2rem;
+}
+
+.imagenBodega2 {
+  background-image: url("../img/bodegas2.jpeg");
+  background-position: bottom;
+  padding: 8% 8% 8% 50%;
+  border: none;
+}
+
+.imagenBodega3 {
+  background-image: url("../img/bodegas3.jpg");
+  background-position: bottom;
+  padding: 14% 40% 9% 10%;
+  border: none;
+}
+.imagenBodega3 ul {
+  margin: 1rem 0;
+  line-height: 1.8rem;
+  text-align: start;
+}
+
+.imagenBodega4 {
+  background-image: url("../img/bodegas4.jpg");
+  background-position: center;
+  padding: 12% 30%;
+  border: none;
+}
+
 /*# sourceMappingURL=estilo.css.map */
