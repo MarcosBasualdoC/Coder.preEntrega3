@@ -1,0 +1,14 @@
+/* FOOTER */
+
+.footerBox {
+	background-color: $background-color_2;
+	color: $color_2;
+	display: flex;
+	justify-content: space-around;
+	padding: 1rem 0;
+	font-size: .8rem;
+	p {
+		margin: 0 1rem;
+		text-align: center;
+	}
+}
