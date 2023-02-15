@@ -1,0 +1,88 @@
+
+
+/* ----------- CONTACTO ---------- */
+
+
+.tituloCont {
+	background-image: url("../img/avion1.png");
+	height: 15rem;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	h1 {
+		font-size: 4rem;
+		font-weight: bold;
+		padding: 0 1rem;
+		border: 3px solid;
+		text-align: center;
+	}
+}
+.mainCont {
+	padding: 2rem 0;
+	border-top: 3px solid;
+	background-image: url("../img/manchas.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.campos {
+	display: flex;
+	flex-direction: column;
+}
+fieldset {
+	border: none;
+	padding: 2rem;
+}
+.formulario {
+	background-color: $background-color_4;
+	width: 50%;
+	margin: 0 auto;
+	border-radius: 5px;
+}
+legend {
+	color: $color_2;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	padding: 2rem;
+	margin: 0 auto;
+	margin-bottom: 1rem;
+}
+.campo {
+	margin-bottom: 1rem;
+}
+label {
+	color: $color_2;
+	margin-bottom: 0.5;
+}
+.inputEstilo {
+	width: 100%;
+	border: none;
+	padding: 1rem;
+	border-radius: 5px;
+}
+textarea {
+	height: 10rem;
+	resize: none;
+}
+.botonFormularioDiv {
+	display: flex;
+	justify-content: center;
+}
+.botonFormulario {
+	background-color: $background-color_2;
+	color: $color_2;
+	text-decoration: none;
+	font-size: 1.2rem;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-radius: 25px;
+	border: none;
+	text-align: center;
+	width: 30%;
+	&:hover {
+		background-color: $background-color_5;
+	}
+}
