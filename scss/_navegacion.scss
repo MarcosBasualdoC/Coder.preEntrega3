@@ -1,0 +1,38 @@
+/* NAVEGACION */
+
+nav {
+	background-color: $background-color_2;
+	color: $color_2;
+}
+.navegacion {
+	a {
+		color: $color_2;
+	}
+}
+.logo {
+	height: 4rem;
+	margin-top: -.5rem;
+}
+.redes {
+	height: 1.5rem;
+	margin: 1rem;
+}
+.red {
+	margin-top: .7rem;
+}
+.links {
+	font-size: 1.2rem;
+	font-weight: bold;
+	&:hover {
+		color: $color_3;
+	}
+}
+.linksUl {
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+}
+.navbar-toggler {
+	color: $color_2;
+	background-color: $background-color_1;
+}
