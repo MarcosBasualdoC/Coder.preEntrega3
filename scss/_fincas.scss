@@ -1,0 +1,43 @@
+
+
+/* ------------------ FINCAS -------------- */
+
+.tituloFinc {
+	background-image: url("../img/lavid.png");
+	background-position: top right;
+	background-size: cover;
+}
+.mainFinc {
+	border-top: 3px solid;
+	padding-top: 0.1rem;
+}
+.textoBoton {
+	font-weight: bold;
+	font-size: 1.1rem;
+	color: $color_1 !important;
+}
+.imagenFincas {
+	width: 90%;
+	margin-bottom: 2rem;
+}
+.accordion-body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: $background-color_1;
+	font-size: 1.2rem;
+}
+.imagenFincasInfo {
+	margin-top: 2rem;
+	width: 45%;
+}
+.bodyBottom {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+.footerBottom {
+	margin-top: auto;
+}
