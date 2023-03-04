@@ -273,9 +273,6 @@ nav {
 /* --------- PRODUCTOS --------- */
 .tituloProd {
   height: 20rem;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: right;
   display: flex;
   align-items: center;
   justify-content: center;
