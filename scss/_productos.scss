@@ -5,9 +5,6 @@
 
 .tituloProd {
 	height: 20rem;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: right;
 	@include flexCenter;
 	justify-content: center;
 	z-index: 3;
